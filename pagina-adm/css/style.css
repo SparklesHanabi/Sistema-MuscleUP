@@ -1,0 +1,168 @@
+/*Topo*/
+
+.menu-principal {
+  background-color: #050c14;
+  height: 71px;
+  width: 100%;
+}
+
+ul {
+  padding: opx !important;
+}
+
+.body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.main {
+  width: 980px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.logo {
+  padding: 1px;
+  width: 50%;
+  float: left;
+  margin-left: 20px;
+}
+
+.redes-sociais ul li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 20px;
+  padding: 4px;
+  margin: auto;
+}
+
+.redes-sociais {
+  width: 20%;
+  float: right;
+  margin-top: 15px;
+}
+
+.header-2 {
+  background-color: #fff;
+  width: 980px;
+  margin: 0 auto;
+  padding: 2px;
+}
+
+.menu-urls {
+  background-color: #fff;
+  border-bottom: 3px solid #efefef;
+  height: 80px;
+}
+
+.menu ul li {
+  display: inline-block;
+  color: rgba(255, 0, 0, 0.733);
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-left: 19px;
+  font-weight: 550;
+  font-family: sans-serif;
+  height: 40px;
+  margin-top: 24px;
+}
+
+.menu ul li:hover {
+  border-bottom: 3px solid rgb(29, 36, 36);
+}
+
+.menu ul li a:hover {
+  color: rgb(18, 22, 22);
+}
+
+.menu ul li a {
+  color: rgba(255, 0, 0, 0.733);
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-left: 3px;
+}
+
+.menu {
+  width: 85%;
+  float: left;
+}
+
+.busca {
+  width: 15%;
+  float: left;
+  text-align: center;
+  margin-top: 23px;
+}
+
+
+
+.main_header {
+  width: 100%;
+  background-color: #2d3142;
+}
+
+.main_header .main_header_content {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main_header .main_header_content .logo {
+  flex-basis: 330px;
+  padding: 20px;
+  width: 290px;
+}
+
+.main_header .main_header_content .main_header_content_menu {
+  flex-basis: calc(100% - 330px);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main_header_content_menu ul {
+  display: flex;
+  align-items: stretch;
+}
+
+.main_header_content_menu ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.main_header_content_menu ul li a {
+  padding: 0 26px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: #d36833;
+}
+
+
+
+/*INCICIO DOBRA CURSOS*/
+.main_course {
+  width: 100%;
+}
+
+.main_course_header {
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.main_course_header img {
+  margin-bottom: 20px;
+}
+
+
+
+
+
+/*FIM DOBRA CURSOS*/
